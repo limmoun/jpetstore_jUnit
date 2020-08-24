@@ -10,9 +10,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class TestSelenium_OK {
+public class TestSelenium_OK 
 
 	@Test
+	@TFMetadata(key ="linked-TC", value ={"0519e51a-101f-47ee-80ec-c18b6ebd3c98"}
 	public void TestSeleniumJUnit () throws InterruptedException{
 
 		System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
